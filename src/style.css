@@ -1,27 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-  --color-white: #fff;
-  --color-blue: hsl(232, 62%, 57%);
-  --color-grey: hsl(237, 45%, 90%);
-  --color-black: #000;
-
-  --font-family: "GT America Standard", sans-serif;
-  --font-style: normal;
-  --font-w-normal: 400;
-  --font-w-medium: 500;
-  --font-w-heavy: 800;
-}
-
-html,
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  height: 100dvh;
-
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-normal);
-
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  --color-bg1: 0deg 0% 100%;
+  --color-bg2: 0deg 0% 0%;
+  --color-bg3: 237deg 45% 90%;
+  --color-primary1: 232deg 62% 57%;
 }
